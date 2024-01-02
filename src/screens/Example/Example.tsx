@@ -60,10 +60,6 @@ function Example() {
     changeTheme(variant === "default" ? "dark" : "default");
   };
 
-  const onChangeLanguage = (lang: "fr" | "en") => {
-    void i18next.changeLanguage(lang);
-  };
-
   if (
     !isImageSourcePropType(SendImage) ||
     !isImageSourcePropType(ColorsWatchImage) ||
